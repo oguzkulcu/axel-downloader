@@ -12,8 +12,7 @@
     "build": "babel src/ -d lib/",
     "dev": "babel -w src/ -d lib/",
     "test": "ava -v",
-    "coverage": "nyc --reporter=lcov npm test && cat ./coverage/lcov.info | coveralls",
-    "postinstall": "npm run build"
+    "coverage": "nyc --reporter=lcov npm test && cat ./coverage/lcov.info | coveralls"
   },
   "repository": "https://github.com/mamal72/axel-downloader",
   "author": "Mohamad Jahani <m4m4lj@gmail.com>",
