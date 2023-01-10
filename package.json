@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
-    "build": "npm run lint && babel src/ -d lib/",
+    "build": "babel src/ -d lib/",
     "dev": "babel -w src/ -d lib/",
     "test": "ava -v",
     "coverage": "nyc --reporter=lcov npm test && cat ./coverage/lcov.info | coveralls",
